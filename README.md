@@ -4,9 +4,8 @@ A board that should have all the hardware that you need to experiment with
 V-USB or any other software-based AVR USB stack on an ATTINY-85 MCU. 
 
 The design of this board originated with the AVR/V-USB schematics found in
-[**Code and Life's AVR ATTINY USB
-Tutorial**](http://codeandlife.com/2012/01/22/avr-attiny-usb-tutorial-part-1/,
-"Code and Life's V-USB ATTINY Tutorial").  I combined their schematics for
+[**Code and Life's AVR ATTINY USB Tutorial**](http://codeandlife.com/2012/01/22/avr-attiny-usb-tutorial-part-1/ "Code and Life's V-USB ATTINY Tutorial").  
+I combined their schematics for
 ATTINY-2313 and ATTINY-85 circuits and added an ISP header. Note: the ISP
 header does not utilize VCC or GND. All power to this board comes from the
 USB connection. Please keep this in mind if you decide to program the MCU
@@ -45,8 +44,8 @@ I'm not going to document V-USB usage, sorry. There are tutorials linked
 to the V-USB page and numerous websites Out There™ that cover this in
 detail. 
 
-* [V-USB Website](http://www.obdev.at/products/vusb/index.html, "V-USB Website") 
-* [Code and Life's AVR ATTINY USB Tutorial](http://codeandlife.com/2012/01/22/avr-attiny-usb-tutorial-part-1/, "Code and Life's V-USB ATTINY Tutorial")
+* [V-USB Website](http://www.obdev.at/products/vusb/index.html "V-USB Website") 
+* [Code and Life's AVR ATTINY USB Tutorial](http://codeandlife.com/2012/01/22/avr-attiny-usb-tutorial-part-1/ "Code and Life's V-USB ATTINY Tutorial")
 
 ##Limitations
 
