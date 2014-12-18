@@ -45,8 +45,6 @@ I'm not going to document V-USB usage, sorry. There are tutorials linked
 to the V-USB page and numerous websites Out There™ that cover this in
 detail. 
 
-* V-USB home site
-  
 * [V-USB Website](http://www.obdev.at/products/vusb/index.html, "V-USB Website") 
 * [Code and Life's AVR ATTINY USB Tutorial](http://codeandlife.com/2012/01/22/avr-attiny-usb-tutorial-part-1/, "Code and Life's V-USB ATTINY Tutorial")
 
