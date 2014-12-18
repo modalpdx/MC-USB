@@ -5,21 +5,21 @@ V-USB or any other software-based AVR USB stack on an ATTINY-85 MCU.
 
 The design of this board originated with the AVR/V-USB schematics found in
 Code and Life's AVR ATTINY USB Tutorial (linked below). I combined their schematics for
-ATTINY-2313 and ATTINY-85 circuits and added an ISP header. Note: the ISP
-header does not utilize VCC or GND. All power to this board comes from the
-USB connection. Please keep this in mind if you decide to program the MCU
-on this board.
+ATTINY-2313 and ATTINY-85 circuits and added an ISP header. 
 
-The ISP header doubles as a pinout for the ATTINY085 chip. The "useful"
+*Note: the ISP header does not utilize VCC or GND. All power to this board
+comes from the USB connection. Please keep this in mind if you decide to
+program the MCU on this board.*
+
+The ISP header doubles as a pinout for the ATTINY-85 chip. The "useful"
 pins are labeled along with their ISP usages (MISO, MOSI, etc).
 
-There is a spot for a 12MHz external crystal. I would suggest adding a
-3-pin female header here instead of soldering a crystal to the board,
-reason being the ATTINY-85's internal 16.5MHz oscillator can be utilized
-in place of a crystal, and that frees up the crystal pins (PB3 and PB4)
-for other uses. A crystal will fit in a 3-pin female header just fine if
-one is used, otherwise the header will give you much easier access to
-the freed pins. It's your call.
+There is a spot on the board for a 12MHz external crystal. I would suggest
+adding a 3-pin female header here instead, reason being the ATTINY-85's
+internal 16.5MHz oscillator can be utilized in place of a crystal, and
+that frees up the crystal pins (PB3 and PB4) for other uses. A crystal
+will fit in a 3-pin female header just fine if one is used, otherwise the
+header will give you much easier access to the freed pins. It's your call.
 
 ##Parts
 
