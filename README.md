@@ -1,5 +1,11 @@
 #TINY85-USB Development Board
 
+*BIG IMPORTANT NOTE: The first run of PCBs has come back from the fab, and
+yep, they don't work as designed. Until further notice, please don't make
+any PCBs from these files. I'll update everything once I figure out how to
+fix all of the issues. There aren't many, but the ones that exist are show
+stoppers as far as I'm concerned.*
+
 A board that should have all the hardware that you need to experiment with
 V-USB or any other software-based AVR USB stack on an ATTINY-85 MCU. 
 
@@ -61,12 +67,4 @@ process. So, here we are.
 
 ##Miscellaneous Notes
 
-A similar circuit on a breadboard was identified on my MacBook Pro as an
-HID device. I used the ATTINY-85's internal 16.5MHz oscillator instead of
-an external crystal. The circuit was based on the Code and Life tutorial
-circuit mentioned a few times above. Basically, this *should* work.
-
-The first run of PCBs from OSHPark has been submitted but not received
-yet. If you decide to make boards from these files in the meantime,
-well...you're on your own.
-
+Don't use these files yet. Moose out front should have told you.
