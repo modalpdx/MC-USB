@@ -1,4 +1,4 @@
-#TINY85-USB Development Board
+#MC-USB Development Board
 
 *BIG IMPORTANT NOTE: The first run of PCBs has come back from the fab, and
 yep, they don't work as designed. Until further notice, please don't make
@@ -7,7 +7,8 @@ fix all of the issues. There aren't many, but the ones that exist are show
 stoppers as far as I'm concerned.*
 
 A board that should have all the hardware that you need to experiment with
-V-USB or any other software-based AVR USB stack on an ATTINY-85 MCU. 
+V-USB or any other software-based USB stack on an ATTINY-85 MCU (current
+configuration, other MCUs may be implemented in future editions). 
 
 The design of this board originated with the AVR/V-USB schematics found in
 Code and Life's AVR ATTINY USB Tutorial (linked below). I combined their schematics for
