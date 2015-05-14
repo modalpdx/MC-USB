@@ -1,5 +1,12 @@
 #MC-USB Development Board
 
+*BIGGER, MORE IMPORTANT NOTE: This project is being abandoned. I could fix
+the issues with the board, but since getting the first run back from the
+fab I have discovered the [Little Wire](http://littlewire.cc "Little Wire") 
+project, which more or less encompasses everything I set out to do
+with MC-USB. Please forget MC-USB exists and check out Little Wire
+instead. You won't regret it.*
+
 *BIG IMPORTANT NOTE: The first run of PCBs has come back from the fab, and
 yep, they don't work as designed. Until further notice, please don't make
 any PCBs from these files. I'll update everything once I figure out how to
